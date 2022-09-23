@@ -1,0 +1,47 @@
+.chat-messages {
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: auto;
+}
+
+.message{
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.content{
+    max-width: 40%;
+    overflow-wrap: break-word;
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 1rem;
+    color: #d1d1d1;
+}
+
+.sended {
+    justify-content: flex-end;
+}
+.content-sended {
+    background-color: #1976d2;
+    color: white
+}
+
+.recieved {
+    justify-content: flex-start;
+    
+  }
+
+.content-recieved {
+    background-color: lightgray;
+    color: black
+}
+
+.PhoneInput input{
+    height: 45px;
+    border: none;
+    font-size: 1rem;
+}
